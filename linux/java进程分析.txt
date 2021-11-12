@@ -1,0 +1,51 @@
+cat /proc/pid/status 
+
+
+Name:   polserver
+Umask:  0022
+State:  S (sleeping)
+Tgid:   6829   线程组id
+Ngid:   0
+Pid:    6829
+PPid:   6828
+TracerPid:      0
+Uid:    0       0       0       0
+Gid:    0       0       0       0
+FDSize: 256 	表示到目前为止进程使用过的描述符总数。
+Groups: 0 
+VmPeak:  4777472 kB  当前进程运行过程中占用虚拟内存的峰值。虚拟内存=物理内存+swap
+VmSize:  4251136 kB  进程现在正在占用虚拟内存大小
+VmLck:         0 kB  已经锁住的物理内存的大小.锁住的物理内存不能交换到硬盘.
+VmPin:         0 kB
+VmHWM:    685372 kB  程序得到分配到物理内存的峰值
+VmRSS:    647612 kB  程序现在使用的物理内存
+RssAnon:          641040 kB
+RssFile:            6572 kB
+RssShmem:              0 kB
+VmData:  4088884 kB
+VmStk:       132 kB
+VmExe:         4 kB
+VmLib:     17212 kB
+VmPTE:      1980 kB  占用的页表的大小.
+VmSwap:     7080 kB  进程占用Swap的大小.
+Threads:        84
+SigQ:   0/30863
+SigPnd: 0000000000000000
+ShdPnd: 0000000000000000
+SigBlk: 0000000000000000
+SigIgn: 0000000000000003
+SigCgt: 2000000181005ccc
+CapInh: 0000000000000000
+CapPrm: 0000001fffffffff
+CapEff: 0000001fffffffff
+CapBnd: 0000001fffffffff
+CapAmb: 0000000000000000
+NoNewPrivs:     0
+Seccomp:        0
+Speculation_Store_Bypass:       thread vulnerable
+Cpus_allowed:   f
+Cpus_allowed_list:      0-3
+Mems_allowed:   00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:      0
+voluntary_ctxt_switches:        2 进程主动切换的次数
+nonvoluntary_ctxt_switches:     1 表示进程被动切换的次数.
